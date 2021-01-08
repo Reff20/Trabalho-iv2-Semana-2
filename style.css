@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image:linear-gradient(rgb(255, 255, 255), rgb(54, 101, 187));
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.tematxt{
+    font-weight: 700;
+    color: black;
+}
+
+#nav{
+    text-align: start;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+#nav a{
+    padding: 0 2vh;
+}
+
+#imgHome{
+    display: flex;
+    justify-content: center;
+}
+
+#nav img{
+    padding: 20px 0 20px 0;
+    width: 30vh;
+    opacity: 0.6;
+}
+
+
+#imgHome img{
+    width: 100vh;
+    padding: 20vh 0 0 0; 
+}
+
+#butt{
+    display: flex;
+    justify-content: center;
+}
+
+#inputSearch{
+    border-color: black;
+    height: 5vh;
+    width: 45%;
+    border-radius: 40px 0 0 40px;
+    padding: 0 3vh;
+    outline: none;
+}
+
+#submitSearch{
+    padding: 0 3vh;
+    border-color: black;
+    border-radius: 0 40px 40px 0;
+    outline: none;
+}
+
+#pp{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+#privacidade{ 
+    margin: 0 20px 20px 40px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.233);
+    padding: 40px;
+}
+
+#compromisso{
+    margin: 0 20px 20px 40px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.233);
+    padding: 40px;
+}
+
+/* #informacoes{
+    margin: 0 20px 20px 40px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.233);
+    padding: 40px;
+} */
+
+.pparagrafo{
+    font-size: 16px;
+    color: black;
+}
+
+#plist{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.tlist{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.ptitle{
+    font-weight: 900;
+}
+
+#termos{
+    background-color: rgba(255, 255, 255, 0.233);
+    margin: 0 20px 20px 40px;
+    width: 1000px;
+    padding: 40px;
+}
+
+#brasil{
+    padding: 20px;
+    width: 800px;
+    display: flex;
+    text-align: justify;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.301);
+    margin-bottom: 30px;
+    border: solid 2px black;
+}
+
+#sobre1{
+    opacity: 0.4;
+}
+
+#sobre1:hover{
+    opacity: 1;
+}
+
+#sobre2{
+    opacity: 0.4;
+}
+
+#sobre2:hover{
+    opacity: 1;
+}
+
+/* #cards{
+    align-items: center;
+} */
+
+i{
+    flex-direction: column;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Search</title>
+    <link rel="shortcut icon" href="imgs/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link class="tema" rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-yellow.min.css">
+</head>
+<body class="body">
+    <div class="mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <a href="index.html"><img src="imgs/logomenor.png" alt="logo header" style="width: 200px;"></a>
+                <div class="mdl-layout-spacer" style="margin-left: 100px;">
+                    <!-- Simple Textfield -->
+                    <div class="mdl-layout-spacer">
+                        <form action="#">
+                            <div class="mdl-textfield mdl-js-textfield" style="display: flex; width: 600px;">
+                                <input class="mdl-textfield__input" type="text" id="sample1">
+                                <label class="mdl-textfield__label label" for="sample1" style="font-weight: 700; color: black;">Let's Search...</label>
+                                <a href="search.html"><span class="material-icons" >search</span></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <nav class="mdl-navegation">
+                    <a onclick="temaEscuro()" style="cursor: pointer;" class="tematxt">Tema Escuro</a>
+                    <a href="https://mail.google.com" class="mdl-navegation__link" target="_blank" style="padding: 0 10px; font-weight: 700;">Email</a>
+                    <a href="https://unsplash.com" class="mdl-navegation__link" target="_blank" style="padding: 0 10px; font-weight: 700;">Imagens</a>
+                    <a href="https://www.linkedin.com/in/fernando-peres-carvalho-25b4661b7/" class="mdl-navegation__link" target="_blank" style="padding: 0 10px"><img src="imgs/emoji.png" alt="smile"></a>
+                    <button id="demo-menu-lower-right"class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="material-icons" class="bot" style="color: black;">more_vert</i>
+                    </button>
+                    <div class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"for="demo-menu-lower-right">
+                        <a class="mdl-menu__item" href="brasil.html" style="color: black;">Brasil</a>
+                        <a class="mdl-menu__item" href="about.html" style="color: black;">Sobre</a>
+                        <a class="mdl-menu__item" href="negocios.html" style="color: black;">Negócios</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div id="homePai">
+        <div id="imgHome">
+            <img src="imgs/WTS.png" alt="logo menu principal" style="margin-bottom: 20px;">
+        </div>
+        <div id="Search">
+            <!-- Textfield with Floating Label -->
+            <form action="#" style="padding: 20px;">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"style="display: flex; margin: auto;">
+                    <input class="mdl-textfield__input" type="text" id="sample3">
+                    <label class="mdl-textfield__label label" id="let" for="sample3" style="font-weight: 700; color: black;">Pesquise no "Let's Search"...</label>
+                    <a href="search.html"><span class="material-icons">search</span></a>
+                </div>
+                <div id="butt" style="padding: 20px;">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="margin-bottom: 161px;">
+                        <a href="https://www.youtube.com/watch?v=1LTV2bQoxC8" target="_blank" style="text-decoration: none;">Estou com Azar</a>
+                    </button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <footer class="mdl-mini-footer" style="z-index: 1000;margin-top: 45px;">
+        <div class="mdl-mini-footer__left-section" style="transform: translateY(20px);">
+            <a href="https://linkedin.com/in/fernando-peres-carvalho-25b4661b7/" target="_blank" style="margin-left: 15px;">©2020 Fernando Peres Carvalho, todos os direitos reservados.</a>
+        </div>
+        <div class="mdl-mini-footer__right-section" style="transform: translateY(20px);">
+            <ul class="mdl-mini-footer__link-list" id="list" style="margin-right: 15px; color: white;">
+                <li><a href="publicidade.html">Publicidade</a></li>
+                <li><a href="privacidade.html">Privacidade</a></li>
+                <li><a href="termos.html">Termos</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+  
+    <script src="script.js"></script>
+</body>
+</html>

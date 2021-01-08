@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Search</title>
+    <link rel="shortcut icon" href="imgs/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link class="tema" rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-yellow.min.css">
+</head>
+<body class="body">
+    <div class="mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <a href="index.html"><img src="imgs/logomenor.png" alt="logo header" style="width: 200px;"></a>
+                <div class="mdl-layout-spacer" style="margin-left: 100px;">
+                    <!-- Simple Textfield -->
+                    <div class="mdl-layout-spacer">
+                        <form action="#">
+                            <div class="mdl-textfield mdl-js-textfield" style="display: flex; width: 600px;">
+                                <input class="mdl-textfield__input" type="text" id="sample1">
+                                <label class="mdl-textfield__label" for="sample1" style="font-weight: 700; color: black;">Let's Search...</label>
+                                <a href="search.html"><span class="material-icons" >search</span></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <nav class="mdl-navegation">
+                    <a onclick="temaEscuro()" style="cursor: pointer;" class="tematxt">Tema Escuro</a>
+                    <a href="https://mail.google.com" class="mdl-navegation__link" target="_blank" style="padding: 0 10px; font-weight: 700;">Email</a>
+                    <a href="https://unsplash.com" class="mdl-navegation__link" target="_blank" style="padding: 0 10px; font-weight: 700;">Imagens</a>
+                    <a href="https://www.linkedin.com/in/fernando-peres-carvalho-25b4661b7/" class="mdl-navegation__link" target="_blank" style="padding: 0 10px"><img src="imgs/emoji.png" alt="smile"></a>
+                    <button id="demo-menu-lower-right"class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="material-icons" id="bot" style="color: black;">more_vert</i>
+                    </button>
+                    <div class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"for="demo-menu-lower-right">
+                        <a class="mdl-menu__item" href="brasil.html" style="color: black;">Brasil</a>
+                        <a class="mdl-menu__item" href="about.html" style="color: black;">Sobre</a>
+                        <a class="mdl-menu__item" href="negocios.html" style="color: black;">Negócios</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+        
+    <div style="padding-top: 500px; padding: 4px; display: flex; justify-content: center; margin: 0 20px;">
+        <div id="sobre1" class="mdl-card" style="width: 600px; border: solid 2px black; margin-top: 120px; margin-bottom: 80px; margin-right: 20px;">
+            <div class="mdl-card__media">
+              <a href="https://www.wtcccsgo.com" target="_blank"><img src="imgs/logo wtcc.png" alt="Card Image" style="width: 600px; background-color: white;"></a>
+            </div>
+            <div class="mdl-card__title">
+                <a href="https://www.wtcccsgo.com" target="_blank" style="color: black;">O que é a WTCC? Quem somos?</a>
+            </div>
+            <div class="mdl-card__supporting-text">
+              <p style="font-size: 18px;">A WTCC(Welcome To Clutch Cup) começou com uma ideia e hoje é muito mais que um mero projeto. Atualmente (2020) temos mais de 100 usuários atuantes em <a href="https://discord.gg/FxYRtvh" target="_blank" style="color: blue;">nosso servidor do discord</a>, mais de 12 times que participam dos campeonatos e amigos que levaremos para a vida. Venha fazer parte você também!</p>
+            </div>
+            <div class="mdl-card__action mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://discord.gg/FxYRtvh" target="_blank" style="display: flex;justify-content: center;margin-bottom: 10px;">Clique e saiba mais</a>
+            </div>
+        </div>
+        <div id="sobre2" class="mdl-card" style="width: 600px; border: solid 2px black; margin-top: 120px; margin-bottom: 80px;">
+            <div class="mdl-card__media">
+              <a href="https://linkedin.com/in/fernando-peres-carvalho-25b4661b7/" target="_blank"><img src="imgs/narrador.jpg" alt="Fer Card Image" style="width: 600px; background-color: white;"></a>
+            </div>
+            <div class="mdl-card__title">
+                <a href="https://discord.gg/FxYRtvh" target="_blank" style="color: black;">Fernando Peres Carvalho</a>
+            </div>
+            <div class="mdl-card__supporting-text">
+              <p style="font-size: 18px;">Bom, sendo sincero não sei me expressar bem, muito menos quando se trata de mim. Mas resumidamente, eu tenho essa paixão por computadores e video games desde criança por influência do meu pai, meu maior exemplo de vida. Então resolvi seguir nessa área de DEV e ver no que da.<br>O estilo do site foi mais de última hora que eu resolvi criar. Peguei o molde que o professor Lucas fez e então comecei a pesquisar no site do <b>MDL</b> como fazia cada coisa e ai fui abrindo minha mente. Não vou mentir, mas quando não conseguia fazer algo dava uma espiada no repositório para ver o que eu podia fazer, ou porque o meu não funcionava.<br>E essa WTCC (Welcome To Clutch Cup) é um campeonato de CS:GO que eu criei com meus 18 anos e venho "tocando o barco" desde então. Posso dizer com orgulho que esse é o projeto da minha vida.</p>
+            </div>
+            <div class="mdl-card__action mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.instagram.com/_fperes/" target="_blank" style="display: flex;justify-content: center;margin-bottom: 10px;">Meu instagram</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mdl-mini-footer" style="z-index: 1000;">
+        <div class="mdl-mini-footer__left-section" style="transform: translateY(20px);">
+            <a href="https://linkedin.com/in/fernando-peres-carvalho-25b4661b7/" target="_blank" style="margin-left: 15px;">©2020 Fernando Peres Carvalho, todos os direitos reservados.</a>
+        </div>
+        <div class="mdl-mini-footer__right-section" style="transform: translateY(20px);">
+            <ul class="mdl-mini-footer__link-list" style="margin-right: 15px;">
+                <li><a href="publicidade.html">Publicidade</a></li>
+                <li><a href="privacidade.html">Privacidade</a></li>
+                <li><a href="termos.html">Termos</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
